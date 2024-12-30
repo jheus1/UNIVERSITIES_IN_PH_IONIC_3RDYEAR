@@ -1,0 +1,70 @@
+ion-content{
+    position: relative;
+}
+.btn{
+    background-color: rgba(26, 15, 222, 0.702);
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: 'Gill Sans';
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 10%;
+    border-radius: 25px;
+
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.btn-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.btn1{
+    position: relative;
+    overflow: hidden;
+    font-family: Georgia;
+    font-weight: bold;
+    color: white;
+
+}
+.btn1:hover{
+    border-style:groove;
+    border-color: blue;
+    border-radius: 15px;
+    border-width: 3px;
+    overflow: hidden;
+    margin-top: 0.5px;
+    margin-bottom: 1.7px;
+    font-weight: bolder;
+    //color: white;
+    opacity: 100%;
+    background-color: rgba(26, 15, 222, 0.5);
+}
+
+.card{
+    margin-left: 0%;
+    margin-right: 0%;
+
+    margin-top: 10px;
+    height: 15%;
+}
+.luzon{
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color:white;
+    background-color: rgba(53, 23, 225, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,111 @@
+.ulo{
+    font-family: Verdana;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+.head1{
+    background-color: rgba(26, 15, 222, 0.702);
+    color: white;
+    padding-top: 20px;
+    margin-top: 0%;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.card{
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 15%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.luzon{
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color:white;
+    background-color: rgba(53, 23, 225, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.visayas{
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color:white;
+    background-color: rgba(53, 23, 225, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.mindanao{
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color:white;
+    background-color: rgba(53, 23, 225, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.home{
+    color: rgba(28, 0, 184, 0.949);
+    background-color: rgb(55, 0, 255);
+}
+.btn{
+    background-color: rgba(26, 15, 222, 0.702);
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: 'Gill Sans';
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 10%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.btn1{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+}
+.btn1:hover{
+    border-style:groove;
+    border-color: blue;
+    border-radius: 15px;
+    border-width: 3px;
+    overflow: hidden;
+    margin-top: 0.5px;
+    margin-bottom: 1.7px;
+    font-weight: bolder;
+    opacity: 100%;
+    background-color: rgba(26, 15, 222, 0.5);
+}
+.btn-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+ion-content::part(scroll)
+{
+    padding: 1px;
+}

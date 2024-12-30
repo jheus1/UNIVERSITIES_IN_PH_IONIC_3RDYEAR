@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-searchbar (ionInput)="onSearchInput($event)" show-clear-button="always" animated="true" placeholder="Find City Colleges..."></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-card class="card">
+    <img class="btn-img" src="assets/r5.jpeg">
+  <ion-header class="luzon">REGION V</ion-header>
+  </ion-card>
+
+<ion-list class="list" inset *ngFor="let city of filteredCities">
+  <img class="btn-img" [src]="city.img" alt="City Image">
+  <ion-button class="btn1" [routerLink]="city.link" expand="full" fill="clear" shape="default">{{ city.name }}</ion-button>
+</ion-list>
+
+
+<ion-button class="btn" routerLink="/page1" fill="outline" shape="round" expand="full">BACK</ion-button>
+</ion-content> 
